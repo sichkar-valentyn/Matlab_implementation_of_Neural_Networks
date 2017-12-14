@@ -1,3 +1,11 @@
+% File: NN_Matrices.m
+% Description: Matlab code of Neural Networks Results for Control System of five ultrasonic sensors
+% Environment: Matlab
+%
+% MIT License
+% Copyright (c) 2017 Valentyn N Sichkar
+% github.com/sichkar-valentyn
+
 close all;
 
 %Creating an Input vector
