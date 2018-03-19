@@ -1,12 +1,12 @@
 # Matlab Implementation of Neural Networks
-Matlab implementation of Neural Networks Results for Control System of five Ultrasonic sensors
+Matlab implementation of Neural Networks Results for Control System with five Ultrasonic Sensors
 
 ### Reference to:
 [1] Valentyn N Sichkar. Matlab implementation of Neural Networks Results for Control System of five Ultrasonic sensors // GitHub platform [Electronic resource]. URL: https://github.com/sichkar-valentyn/Matlab_implementation_of_Neural_Networks (date of access: XX.XX.XXXX)
 
 ## Description
 
-System controls the states around the object by checking the distances with five ultrasonic sensors.
+System controls the statements around the object by checking the distances with five ultrasonic sensors.
 
 The sensors work <b>Separately</b>, in <b>Pairs</b>, in <b>Triples</b>, in <b>Quad</b> and all <b>Five</b> together.
 
@@ -16,7 +16,7 @@ Neural Networks show the results in form of <b>"Alarm"</b> and <b>"Warning"</b>.
 
 The intervals for each sensor in each communication form are shown in the figures below.
 
-The Neural Networks are already adjusted and all weights and biases are set.
+The Neural Networks are already adjusted and all Weights and Biases are set.
 
 All Neural Networks have the same <b>Input Vector</b> which is the current value of each sensor.
 
