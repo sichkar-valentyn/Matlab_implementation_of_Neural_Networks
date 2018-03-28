@@ -8,7 +8,7 @@ Matlab implementation of Neural Networks Results for Control System with five Ul
 
 System controls the statements around the object by checking the distances with five Ultrasonic Sensors.
 
-The sensors work <b>Separately</b>, in <b>Pairs</b>, in <b>Triples</b>, in <b>Quad</b> and all <b>Five</b> together.
+The Sensors work <b>Separately</b>, in <b>Pairs</b>, in <b>Triples</b>, in <b>Quad</b> and all <b>Five</b> together.
 
 The Neural Networks are implemented for all these different methods of working.
 
