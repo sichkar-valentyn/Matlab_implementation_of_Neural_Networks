@@ -60,4 +60,4 @@ System controls the statements around the object by checking the distances with 
 ## Copyright (c) 2017 Valentyn N Sichkar
 ## github.com/sichkar-valentyn
 ### Reference to:
-[1] Valentyn N Sichkar. Matlab implementation of Neural Networks Results for Control System of five Ultrasonic sensors // GitHub platform [Electronic resource]. URL: https://github.com/sichkar-valentyn/Matlab_implementation_of_Neural_Networks (date of access: XX.XX.XXXX) 
+[1] Valentyn N Sichkar. Matlab implementation of Neural Networks Results for Control System of five Ultrasonic sensors // GitHub platform [Electronic resource]. URL: https://github.com/sichkar-valentyn/Matlab_implementation_of_Neural_Networks (date of access: XX.XX.XXXX)
