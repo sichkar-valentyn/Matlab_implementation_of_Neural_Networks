@@ -1,5 +1,5 @@
 # Matlab Implementation of Neural Networks
-Matlab implementation of Neural Networks Results for Control System with five Ultrasonic Sensors.
+Matlab implementation of Neural Networks computational results for Control System with five Ultrasonic Sensors.
 
 ### Reference to:
 [1] Valentyn N Sichkar. Matlab implementation of Neural Networks Results for Control System of five Ultrasonic sensors // GitHub platform [Electronic resource]. URL: https://github.com/sichkar-valentyn/Matlab_implementation_of_Neural_Networks (date of access: XX.XX.XXXX)
