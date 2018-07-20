@@ -76,6 +76,8 @@ System controls the statements around the object by checking the distances with 
 ## <a name="The Matrices for method in Five">The Matrices for method in Five</a>
 ![Matrices_for_Five](images/Matrices_for_Five.png)
 
+<br/>
+
 ### MIT License
 ### Copyright (c) 2017 Valentyn N Sichkar
 ### github.com/sichkar-valentyn
