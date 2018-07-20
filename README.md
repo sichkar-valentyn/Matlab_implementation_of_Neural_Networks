@@ -1,8 +1,9 @@
 # Matlab Implementation of Neural Networks
 Matlab implementation of Neural Networks with computational results for Control System with five Ultrasonic Sensors.
+<br/>![DOI](https://zenodo.org/badge/114300076.svg)
 
 ### Reference to:
-[1] Valentyn N Sichkar. Matlab implementation of Neural Networks Results for Control System of five Ultrasonic sensors // GitHub platform [Electronic resource]. URL: https://github.com/sichkar-valentyn/Matlab_implementation_of_Neural_Networks (date of access: XX.XX.XXXX)
+Valentyn N Sichkar. Matlab implementation of Neural Networks Results for Control System of five Ultrasonic sensors // GitHub platform. DOI: 10.5281/zenodo.1317897
 
 ## Description
 
@@ -75,8 +76,8 @@ System controls the statements around the object by checking the distances with 
 ## <a name="The Matrices for method in Five">The Matrices for method in Five</a>
 ![Matrices_for_Five](images/Matrices_for_Five.png)
 
-## MIT License
-## Copyright (c) 2017 Valentyn N Sichkar
-## github.com/sichkar-valentyn
+### MIT License
+### Copyright (c) 2017 Valentyn N Sichkar
+### github.com/sichkar-valentyn
 ### Reference to:
-[1] Valentyn N Sichkar. Matlab implementation of Neural Networks Results for Control System of five Ultrasonic sensors // GitHub platform [Electronic resource]. URL: https://github.com/sichkar-valentyn/Matlab_implementation_of_Neural_Networks (date of access: XX.XX.XXXX)
+Valentyn N Sichkar. Matlab implementation of Neural Networks Results for Control System of five Ultrasonic sensors // GitHub platform. DOI: 10.5281/zenodo.1317897
