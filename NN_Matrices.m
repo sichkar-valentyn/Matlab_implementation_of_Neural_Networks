@@ -7,7 +7,7 @@
 % github.com/sichkar-valentyn
 %
 % Reference to:
-% Valentyn N Sichkar. Matlab implementation of Neural Networks Results for Control System of five Ultrasonic sensors // GitHub platform. DOI: 10.5281/zenodo.1317897
+% Valentyn N Sichkar. Matlab implementation of Neural Networks Results for Control System of five Ultrasonic sensors // GitHub platform. DOI: 10.5281/zenodo.1317896
 
 close all;
 
