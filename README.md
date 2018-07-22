@@ -5,12 +5,11 @@ Matlab implementation of Neural Networks with computational results for Control 
 ### Reference to:
 Valentyn N Sichkar. Matlab implementation of Neural Networks Results for Control System of five Ultrasonic sensors // GitHub platform. DOI: 10.5281/zenodo.1317896
 
-## Description
-
-System controls the statements around the object by checking the distances with five Ultrasonic Sensors. The Sensors work <b>Separately</b>, in <b>Pairs</b>, in <b>Triples</b>, in <b>Quad</b> and all <b>Five</b> together. The Neural Networks are implemented for all of these different approaches. Neural Networks show the results in form of <b>"Alarm"</b> and <b>"Warning"</b>. The intervals for each sensor in each communication form are shown in the figures below. The Neural Networks are already adjusted and all Weights and Biases are set. All Neural Networks have the same <b>Input Vector</b> which is the current value of each sensor.
-
 ### Related works:
 * The study of Semantic Representation of knowledge and querying of it through owl files with SPARQL is put in separate repository and is available here: https://github.com/sichkar-valentyn/System_programming_for_SPARQL_querying_with_interface_development_by_html_files
+
+## Description
+System controls the statements around the object by checking the distances with five Ultrasonic Sensors. The Sensors work <b>Separately</b>, in <b>Pairs</b>, in <b>Triples</b>, in <b>Quad</b> and all <b>Five</b> together. The Neural Networks are implemented for all of these different approaches. Neural Networks show the results in form of <b>"Alarm"</b> and <b>"Warning"</b>. The intervals for each sensor in each communication form are shown in the figures below. The Neural Networks are already adjusted and all Weights and Biases are set. All Neural Networks have the same <b>Input Vector</b> which is the current value of each sensor.
 
 ## Content
 * <a href="#An example of the execution in Matlab for input vector [10 10 10 10 10 1]">An example of the execution in Matlab for input vector [10 10 10 10 10 1]</a>
