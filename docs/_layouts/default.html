@@ -1,13 +1,27 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en-US">
 
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="icon" type="image/png" href="/Matlab_implementation_of_Neural_Networks/images/favicon.ico" />
 
-{% seo %}
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Matlab Implementation of Neural Networks - Valentyn Sichkar</title>
+<meta name="generator" content="Jekyll v3.7.3" />
+<meta property="og:title" content="Matlab Implementation of Neural Networks" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Matlab implementation of Neural Networks Results for Alarm-Warning Control System of mobile robot with five Ultrasonic sensors" />
+<meta property="og:description" content="Matlab implementation of Neural Networks Results for Alarm-Warning Control System of mobile robot with five Ultrasonic sensors" />
+<link rel="canonical" href="https://sichkar-valentyn.github.io/Matlab_implementation_of_Neural_Networks/" />
+<meta property="og:url" content="https://sichkar-valentyn.github.io/Matlab_implementation_of_Neural_Networks/" />
+<meta property="og:site_name" content="Matlab_implementation_of_Neural_Networks" />
+<script type="application/ld+json">
+{"name":"Matlab_implementation_of_Neural_Networks","description":"Matlab implementation of Neural Networks Results for Alarm-Warning Control System of mobile robot with five Ultrasonic sensors","@type":"WebSite","url":"https://sichkar-valentyn.github.io/Matlab_implementation_of_Neural_Networks/","headline":"Matlab Implementation of Neural Networks","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+    
   </head>
 
   <body>
@@ -15,46 +29,126 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
-
-          <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-
-          {% if site.show_downloads %}
-            <section id="downloads">
-              <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
-            </section>
-          {% endif %}
+          <a id="forkme_banner" href="https://github.com/sichkar-valentyn/Matlab_implementation_of_Neural_Networks">View on GitHub</a>
+          <h1 id="project_title">Matlab implementation of Neural Networks</h1>
+          <h2 id="project_tagline">Matlab implementation of Neural Networks Results for Alarm-Warning Control System of mobile robot with five Ultrasonic sensors</h2>
+          
+          <a href="https://sichkar-valentyn.github.io">by Valentyn Sichkar</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://ifmo.academia.edu/ValentynSichkar" target="_blank">Academia.edu</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/channel/UCHlzRR0y54SLbcHwLzrUcfw" target="_blank">YouTube</a>        
         </header>
     </div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        {{ content }}
+        <h1 id="matlab-implementation-of-neural-networks">Matlab Implementation of Neural Networks</h1>
+<p>Matlab implementation of Neural Networks with computational results for Control System with five Ultrasonic Sensors.
+<br /><a href="https://doi.org/10.5281/zenodo.1317896"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1317896.svg" alt="DOI" /></a></p>
+
+<h3 id="reference-to">Reference to:</h3>
+<p>Valentyn N Sichkar. Matlab implementation of Neural Networks Results for Control System of five Ultrasonic sensors // GitHub platform. DOI: 10.5281/zenodo.1317896</p>
+
+<h3 id="related-works">Related works:</h3>
+<ul>
+  <li>
+    <p>The study of Semantic Representation of knowledge and querying of it through owl files with SPARQL is put in separate repository and is available here: https://github.com/sichkar-valentyn/System_programming_for_SPARQL_querying_with_interface_development_by_html_files</p>
+  </li>
+  <li>
+    <p>The study of Neural Networks for Computer Vision in autonomous vehicles and robotics is put in separate repository and is available here: https://github.com/sichkar-valentyn/Neural_Networks_for_Computer_Vision</p>
+  </li>
+</ul>
+
+<h2 id="description">Description</h2>
+<p>System controls the statements around the object by checking the distances with five Ultrasonic Sensors. The Sensors work <b>Separately</b>, in <b>Pairs</b>, in <b>Triples</b>, in <b>Quad</b> and all <b>Five</b> together. The Neural Networks are implemented for all of these different approaches. Neural Networks show the results in form of <b>“Alarm”</b> and <b>“Warning”</b>. The intervals for each sensor in each communication form are shown in the figures below. The Neural Networks are already adjusted and all Weights and Biases are set. All Neural Networks have the same <b>Input Vector</b> which is the current value of each sensor.</p>
+
+<h2 id="content">Content</h2>
+<ul>
+  <li><a href="#An example of the execution in Matlab for input vector [10 10 10 10 10 1]">An example of the execution in Matlab for input vector [10 10 10 10 10 1]</a></li>
+  <li><a href="#The Neural Network of five ultrasonic sensors working Separately">The Neural Network of five ultrasonic sensors working Separately</a></li>
+  <li><a href="#Rules for Separate method">Rules for Separate method</a></li>
+  <li><a href="#The Matrices for Separate method">The Matrices for Separate method</a></li>
+  <li><a href="#The Neural Network of five ultrasonic sensors working in Pairs">The Neural Network of five ultrasonic sensors working in Pairs</a></li>
+  <li><a href="#Rules for method in Pairs">Rules for method in Pairs</a></li>
+  <li><a href="#The Matrices for method in Pairs">The Matrices for method in Pairs</a></li>
+  <li><a href="#The Neural Network of five ultrasonic sensors working in Triples">The Neural Network of five ultrasonic sensors working in Triples</a></li>
+  <li><a href="#Rules for method in Triples">Rules for method in Triples</a></li>
+  <li><a href="#The Matrices for method in Triples">The Matrices for method in Triples</a></li>
+  <li><a href="#The Neural Network of five ultrasonic sensors working in Quad">The Neural Network of five ultrasonic sensors working in Quad</a></li>
+  <li><a href="#Rules for method in Quad">Rules for method in Quad</a></li>
+  <li><a href="#The Matrices for method in Quad">The Matrices for method in Quad</a></li>
+  <li><a href="#The Neural Network of five ultrasonic sensors working in Five">The Neural Network of five ultrasonic sensors working in Five</a></li>
+  <li><a href="#Rules for method in Five">Rules for method in Five</a></li>
+  <li><a href="#The Matrices for method in Five">The Matrices for method in Five</a></li>
+</ul>
+
+<h2 id="an-example-of-the-execution-in-matlab-for-input-vector-10-10-10-10-10-1"><a name="An example of the execution in Matlab for input vector [10 10 10 10 10 1]">An example of the execution in Matlab for input vector [10 10 10 10 10 1]</a></h2>
+<p><img src="/Matlab_implementation_of_Neural_Networks/images/Results.png" alt="Results" /></p>
+
+<h2 id="the-neural-network-of-five-ultrasonic-sensors-working-separately"><a name="The Neural Network of five ultrasonic sensors working Separately">The Neural Network of five ultrasonic sensors working Separately</a></h2>
+<p><img src="/Matlab_implementation_of_Neural_Networks/images/NN_Separately.png" alt="NN_Separately" /></p>
+
+<h2 id="rules-for-separate-method"><a name="Rules for Separate method">Rules for Separate method</a></h2>
+<p><img src="/Matlab_implementation_of_Neural_Networks/images/Rules_Separately.png" alt="Rules_Separately" /></p>
+
+<h2 id="the-matrices-for-separate-method"><a name="The Matrices for Separate method">The Matrices for Separate method</a></h2>
+<p><img src="/Matlab_implementation_of_Neural_Networks/images/Matrices_Separately.png" alt="Matrices_Separately" /></p>
+
+<h2 id="the-neural-network-of-five-ultrasonic-sensors-working-in-pairs"><a name="The Neural Network of five ultrasonic sensors working in Pairs">The Neural Network of five ultrasonic sensors working in Pairs</a></h2>
+<p><img src="/Matlab_implementation_of_Neural_Networks/images/NN_for_Pairs.png" alt="NN_for_Pairs" /></p>
+
+<h2 id="rules-for-method-in-pairs"><a name="Rules for method in Pairs">Rules for method in Pairs</a></h2>
+<p><img src="/Matlab_implementation_of_Neural_Networks/images/Rules_for_Pairs.png" alt="Rules_for_Pairs" /></p>
+
+<h2 id="the-matrices-for-method-in-pairs"><a name="The Matrices for method in Pairs">The Matrices for method in Pairs</a></h2>
+<p><img src="/Matlab_implementation_of_Neural_Networks/images/Matrices_for_Pairs.png" alt="Matrices_for_Pairs" /></p>
+
+<h2 id="the-neural-network-of-five-ultrasonic-sensors-working-in-triples"><a name="The Neural Network of five ultrasonic sensors working in Triples">The Neural Network of five ultrasonic sensors working in Triples</a></h2>
+<p><img src="/Matlab_implementation_of_Neural_Networks/images/NN_for_Triples.png" alt="NN_for_Triples" /></p>
+
+<h2 id="rules-for-method-in-triples"><a name="Rules for method in Triples">Rules for method in Triples</a></h2>
+<p><img src="/Matlab_implementation_of_Neural_Networks/images/Rules_for_Triples.png" alt="Rules_for_Triples" /></p>
+
+<h2 id="the-matrices-for-method-in-triples"><a name="The Matrices for method in Triples">The Matrices for method in Triples</a></h2>
+<p><img src="/Matlab_implementation_of_Neural_Networks/images/Matrices_for_Triples.png" alt="Matrices_for_Triples" /></p>
+
+<h2 id="the-neural-network-of-five-ultrasonic-sensors-working-in-quad"><a name="The Neural Network of five ultrasonic sensors working in Quad">The Neural Network of five ultrasonic sensors working in Quad</a></h2>
+<p><img src="/Matlab_implementation_of_Neural_Networks/images/NN_for_Quad.png" alt="NN_for_Quad" /></p>
+
+<h2 id="rules-for-method-in-quad"><a name="Rules for method in Quad">Rules for method in Quad</a></h2>
+<p><img src="/Matlab_implementation_of_Neural_Networks/images/Rules_for_Quad.png" alt="Rules_for_Quad" /></p>
+
+<h2 id="the-matrices-for-method-in-quad"><a name="The Matrices for method in Quad">The Matrices for method in Quad</a></h2>
+<p><img src="/Matlab_implementation_of_Neural_Networks/images/Matrices_for_Quad.png" alt="Matrices_for_Quad" /></p>
+
+<h2 id="the-neural-network-of-five-ultrasonic-sensors-working-in-five"><a name="The Neural Network of five ultrasonic sensors working in Five">The Neural Network of five ultrasonic sensors working in Five</a></h2>
+<p><img src="/Matlab_implementation_of_Neural_Networks/images/NN_for_Five.png" alt="NN_for_Five" /></p>
+
+<h2 id="rules-for-method-in-five"><a name="Rules for method in Five">Rules for method in Five</a></h2>
+<p><img src="/Matlab_implementation_of_Neural_Networks/images/Rules_for_Five.png" alt="Rules_for_Five" /></p>
+
+<h2 id="the-matrices-for-method-in-five"><a name="The Matrices for method in Five">The Matrices for method in Five</a></h2>
+<p><img src="/Matlab_implementation_of_Neural_Networks/images/Matrices_for_Five.png" alt="Matrices_for_Five" /></p>
+
+<p><br /></p>
+
+<h3 id="mit-license">MIT License</h3>
+<h3 id="copyright-c-2017-valentyn-n-sichkar">Copyright (c) 2017 Valentyn N Sichkar</h3>
+<h3 id="githubcomsichkar-valentyn">github.com/sichkar-valentyn</h3>
+<h3 id="reference-to-1">Reference to:</h3>
+<p>Valentyn N Sichkar. Matlab implementation of Neural Networks Results for Control System of five Ultrasonic sensors // GitHub platform. DOI: 10.5281/zenodo.1317896</p>
       </section>
+
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        {% if site.github.is_project_page %}
-        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+        
+        <p class="copyright">"Matlab Implementation of Neural Networks" maintained by <a href="https://github.com/sichkar-valentyn">Valentyn Sichkar</a></p>
+                
       </footer>
     </div>
 
-    {% if site.google_analytics %}
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
   </body>
 </html>
