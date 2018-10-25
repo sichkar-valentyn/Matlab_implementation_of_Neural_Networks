@@ -24,101 +24,101 @@ Code (it'll send you to appropriate file):
 <br/>
 Experimental results (figures and tables on this page):
 
-* <a href="#An example of the execution in Matlab for input vector [10 10 10 10 10 1]">An example of the execution in Matlab for input vector [10 10 10 10 10 1]</a>
-* <a href="#The Neural Network of five ultrasonic sensors working Separately">The Neural Network of five ultrasonic sensors working Separately</a>
-* <a href="#Rules for Separate method">Rules for Separate method</a>
-* <a href="#The Matrices for Separate method">The Matrices for Separate method</a>
-* <a href="#The Neural Network of five ultrasonic sensors working in Pairs">The Neural Network of five ultrasonic sensors working in Pairs</a>
-* <a href="#Rules for method in Pairs">Rules for method in Pairs</a>
-* <a href="#The Matrices for method in Pairs">The Matrices for method in Pairs</a>
-* <a href="#The Neural Network of five ultrasonic sensors working in Triples">The Neural Network of five ultrasonic sensors working in Triples</a>
-* <a href="#Rules for method in Triples">Rules for method in Triples</a>
-* <a href="#The Matrices for method in Triples">The Matrices for method in Triples</a>
-* <a href="#The Neural Network of five ultrasonic sensors working in Quad">The Neural Network of five ultrasonic sensors working in Quad</a>
-* <a href="#Rules for method in Quad">Rules for method in Quad</a>
-* <a href="#The Matrices for method in Quad">The Matrices for method in Quad</a>
-* <a href="#The Neural Network of five ultrasonic sensors working in Five">The Neural Network of five ultrasonic sensors working in Five</a>
-* <a href="#Rules for method in Five">Rules for method in Five</a>
-* <a href="#The Matrices for method in Five">The Matrices for method in Five</a>
+* [An example of the execution in Matlab for input vector [10 10 10 10 10 1]](#an-example-of-the-execution-in-matlab-for-input-vector)
+* [The Neural Network of five ultrasonic sensors working Separately](#the-neural-network-of-five-ultrasonic-sensors-working-separately)
+* [Rules for Separate method](#rules-for-separate-method)
+* [The Matrices for Separate method](#the-matrices-for-separate-method)
+* [The Neural Network of five ultrasonic sensors working in Pairs](#the-neural-network-of-five-ultrasonic-sensors-working-in-pairs)
+* [Rules for method in Pairs](#rules-for-method-in-pairs)
+* [The Matrices for method in Pairs](#the-matrices-for-method-in-pairs)
+* [The Neural Network of five ultrasonic sensors working in Triples](#the-neural-network-of-five-ultrasonic-sensors-working-in-triples)
+* [Rules for method in Triples](#rules-for-method-in-triples)
+* [The Matrices for method in Triples](#the-matrices-for-method-in-triples)
+* [The Neural Network of five ultrasonic sensors working in Quad](#the-neural-network-of-five-ultrasonic-sensors-working-in-quad)
+* [Rules for method in Quad](#rules-for-method-in-quad)
+* [The Matrices for method in Quad](#the-matrices-for-method-in-quad)
+* [The Neural Network of five ultrasonic sensors working in Five](#the-neural-network-of-five-ultrasonic-sensors-working-in-five)
+* [Rules for method in Five](#rules-for-method-in-five)
+* [The Matrices for method in Five](#the-matrices-for-method-in-five)
 
 <br/>
 
-## <a name="An example of the execution in Matlab for input vector [10 10 10 10 10 1]">An example of the execution in Matlab for input vector [10 10 10 10 10 1]</a>
+## <a id="an-example-of-the-execution-in-matlab-for-input-vector">An example of the execution in Matlab for input vector [10 10 10 10 10 1]</a>
 ![Results](images/Results.png)
 
 <br/>
 
-## <a name="The Neural Network of five ultrasonic sensors working Separately">The Neural Network of five ultrasonic sensors working Separately</a>
+## <a id="the-neural-network-of-five-ultrasonic-sensors-working-separately">The Neural Network of five ultrasonic sensors working Separately</a>
 ![NN_Separately](images/NN_Separately.png)
 
 <br/>
 
-## <a name="Rules for Separate method">Rules for Separate method</a>
+## <a id="rules-for-separate-method">Rules for Separate method</a>
 ![Rules_Separately](images/Rules_Separately.png)
 
 <br/>
 
-## <a name="The Matrices for Separate method">The Matrices for Separate method</a>
+## <a id="the-matrices-for-separate-method">The Matrices for Separate method</a>
 ![Matrices_Separately](images/Matrices_Separately.png)
 
 <br/>
 
-## <a name="The Neural Network of five ultrasonic sensors working in Pairs">The Neural Network of five ultrasonic sensors working in Pairs</a>
+## <a id="the-neural-network-of-five-ultrasonic-sensors-working-in-pairs">The Neural Network of five ultrasonic sensors working in Pairs</a>
 ![NN_for_Pairs](images/NN_for_Pairs.png)
 
 <br/>
 
-## <a name="Rules for method in Pairs">Rules for method in Pairs</a>
+## <a id="rules-for-method-in-pairs">Rules for method in Pairs</a>
 ![Rules_for_Pairs](images/Rules_for_Pairs.png)
 
 <br/>
 
-## <a name="The Matrices for method in Pairs">The Matrices for method in Pairs</a>
+## <a id="the-matrices-for-method-in-pairs">The Matrices for method in Pairs</a>
 ![Matrices_for_Pairs](images/Matrices_for_Pairs.png)
 
 <br/>
 
-## <a name="The Neural Network of five ultrasonic sensors working in Triples">The Neural Network of five ultrasonic sensors working in Triples</a>
+## <a id="the-neural-network-of-five-ultrasonic-sensors-working-in-triples">The Neural Network of five ultrasonic sensors working in Triples</a>
 ![NN_for_Triples](images/NN_for_Triples.png)
 
 <br/>
 
-## <a name="Rules for method in Triples">Rules for method in Triples</a>
+## <a id="rules-for-method-in-triples">Rules for method in Triples</a>
 ![Rules_for_Triples](images/Rules_for_Triples.png)
 
 <br/>
 
-## <a name="The Matrices for method in Triples">The Matrices for method in Triples</a>
+## <a id="the-matrices-for-method-in-triples">The Matrices for method in Triples</a>
 ![Matrices_for_Triples](images/Matrices_for_Triples.png)
 
 <br/>
 
-## <a name="The Neural Network of five ultrasonic sensors working in Quad">The Neural Network of five ultrasonic sensors working in Quad</a>
+## <a id="the-neural-network-of-five-ultrasonic-sensors-working-in-quad">The Neural Network of five ultrasonic sensors working in Quad</a>
 ![NN_for_Quad](images/NN_for_Quad.png)
 
 <br/>
 
-## <a name="Rules for method in Quad">Rules for method in Quad</a>
+## <a id="rules-for-method-in-quad">Rules for method in Quad</a>
 ![Rules_for_Quad](images/Rules_for_Quad.png)
 
 <br/>
 
-## <a name="The Matrices for method in Quad">The Matrices for method in Quad</a>
+## <a id="the-matrices-for-method-in-quad">The Matrices for method in Quad</a>
 ![Matrices_for_Quad](images/Matrices_for_Quad.png)
 
 <br/>
 
-## <a name="The Neural Network of five ultrasonic sensors working in Five">The Neural Network of five ultrasonic sensors working in Five</a>
+## <a id="the-neural-network-of-five-ultrasonic-sensors-working-in-five">The Neural Network of five ultrasonic sensors working in Five</a>
 ![NN_for_Five](images/NN_for_Five.png)
 
 <br/>
 
-## <a name="Rules for method in Five">Rules for method in Five</a>
+## <a id="rules-for-method-in-five">Rules for method in Five</a>
 ![Rules_for_Five](images/Rules_for_Five.png)
 
 <br/>
 
-## <a name="The Matrices for method in Five">The Matrices for method in Five</a>
+## <a id="the-matrices-for-method-in-five">The Matrices for method in Five</a>
 ![Matrices_for_Five](images/Matrices_for_Five.png)
 
 <br/>
