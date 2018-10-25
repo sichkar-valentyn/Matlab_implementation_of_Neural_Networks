@@ -19,7 +19,7 @@ System controls the statements around the object by checking the distances with 
 
 ## Content
 Code (it'll send you to appropriate file):
-* [Matlab Code](https://github.com/sichkar-valentyn/Matlab_implementation_of_Neural_Networks/blob/master/NN_Matrices.m)
+* [NN_Matrices.m](https://github.com/sichkar-valentyn/Matlab_implementation_of_Neural_Networks/blob/master/NN_Matrices.m)
 
 <br/>
 Experimental results (figures and tables on this page):
