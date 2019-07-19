@@ -2,9 +2,6 @@
 Matlab implementation of Neural Networks with computational results for Control System with five Ultrasonic Sensors.
 <br/>[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1317896.svg)](https://doi.org/10.5281/zenodo.1317896)
 
-### Courses:
-* Explore the course **"Convolutional Neural Networks for Image Classification"** here: https://stepik.org/course/53801/promo
-
 ### Reference to:
 Valentyn N Sichkar. Matlab implementation of Neural Networks Results for Control System of five Ultrasonic sensors // GitHub platform. DOI: 10.5281/zenodo.1317896
 
